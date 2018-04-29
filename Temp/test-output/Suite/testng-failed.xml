@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="FirefoxTest(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="test.multi.org.NewTest_Parallel">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="f"/>
+          <include name="tearDo"/>
+        </methods>
+      </class> <!-- test.multi.org.NewTest_Parallel -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+  <test thread-count="5" name="chromeTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="test.multi.org.NewTest_Parallel">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="f"/>
+          <include name="tearDo"/>
+        </methods>
+      </class> <!-- test.multi.org.NewTest_Parallel -->
+    </classes>
+  </test> <!-- chromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

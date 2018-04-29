@@ -1,0 +1,3 @@
+ChromeDriver=./jars/chromedriver.exe
+FirefoxDriver=./jars/geckodriver.exe
+URL=https://www.google.co.in/?gfe_rd=cr&ei=4hwGWNmoCcOL8QeIl7zQAw&gws_rd=ssl
